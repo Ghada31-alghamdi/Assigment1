@@ -1,1 +1,39 @@
 
+.card {
+  background: var(--card);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-block: 2rem;
+}
+.box-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  flex: 1 1 300px;
+  max-width: 320px;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  background: #fafafa;
+  font-weight:600;
+}
+.b1 {
+  background: #b2c8b7;
+  border-color: #3a5246;
+   }
+.b2 {
+  background: #6c8a73;
+  border-color: #3a5246;}
+.b3 {
+  background: #b2c8b7;
+  border-color: #3a5246; 
+}
