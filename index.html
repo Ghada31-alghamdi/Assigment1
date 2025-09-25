@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+//making the viewpoint adjust for ant type of devise
 <meta name="viewport" content="width=device-width, inital-scale=1.0">
-<title> Ghada alghamdi Personal website</title>
-<link rel="stylesheet" href="css/styles.css">
+<title> Ghada alghamdi Personal website</title> // adding a title for the web name
+<link rel="stylesheet" href="css/styles.css"> //linking css an js
 <script src="js/script.js" defer></script>
 </head>
 <body>
-    <div class="nav" style="background-image: url(assets/background.webp);"> 
+    <div class="nav" style="background-image: url(assets/background.webp);"> //adding the backgroun image
         <h2>Ghada Alghamdi</h2>
-        <div id="btn">
+        <div id="btn"> // a bloke to use flec boxs and move the btn to the opesite side from the h1
+        //links to move around the page
         <a href="#about_me">About</a>
         <a href="#box-model">Projucts</a>
         <a href="#Contact">Contact</a>
+        //adding a link for my linkdein page
         <a href="https://www.linkedin.com/in/ghdah-alghamdi-164294276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a>
         </div>
     </div>
     <hr>
         <section id="about_me">
-         <img src="assets/profile.png" alt="Profaile photo" width="200px" height="150px">
+         <img src="assets/profile.png" alt="Profaile photo" width="200px" height="150px"> //puting the profile img
         <h1>About Me</h1>
+        // an introuduction
         <P>I am a junior Computer Science student at KFUPM <br>with a strong passion for technology and continuous learning. <br>I am constantly seeking new challenges and opportunities that allow me to <br>enhance my technical skills, broaden my knowledge, and apply what I learn<br> in practical, real-world scenarios. My goal is to keep growing both academically <br>and professionally while contributing to innovative projects in the technology field.</P>
         </section>
     <hr>
-     <section id="box-model" class="card">
+     <section id="box-model" class="card"> // makeing abox mode to have my proujucts (for the outer format)
      <h1>Projects:</h1>
      <div class="box-row">
-            <div class="box b1">
+            <div class="box b1"> //deviding them to 3 boxses each contine img title and description
                 <img src="assets/CPU.png" alt="CPU" width="200px" height="80px">
                 <h3>Bulding a CPU</h3>
                 <p>Designed and implemented a basic CPU from scratch, focusing on the core components such as the control unit, ALU, registers, and memory interactions.</p>
@@ -45,16 +49,16 @@
         </section>
          <section>
             <h1>Contact Me:</h1>
-            <form action="#" method="post" class="card2">
-                <label for="name">Enter your name: </label>
-                <input id="name" name="name" type="text" placeholder="Name" required><br>
-                <label for="email">Enter your email: </label>
-                <input id="email" name="email" type="text" placeholder="Email" required><br>
+            <form action="#" method="post" class="card2">//creating a forme and makeing the class card2 for the outeer format (in css)
+                <label for="name">Enter your name: </label>//the Quation
+                <input id="name" name="name" type="text" placeholder="Name" required><br>//creating a space to put the answer
+                <label for="email">Enter your email: </label>//the Quation
+                <input id="email" name="email" type="text" placeholder="Email" required><br>//creating a space to put the answer
                 <div id="message_bloke">
-                    <label for="message">Your message:</label><br>
-                     <textarea id="message" name="message" rows="6" required></textarea>
+                    <label for="message">Your message:</label><br>//the Quation
+                     <textarea id="message" name="message" rows="6" required></textarea>//creating a space to put the answer but here i'm also adding rows to make the text box bigger
                 </div>
-                <button type="submit" id="submite">Submit</button>
+                <button type="submit" id="submite">Submit</button> // making a button with the type submit for the form
             </form>
         </section>
 </body>

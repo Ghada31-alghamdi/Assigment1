@@ -9,7 +9,7 @@ Here I used the box model, and each box contains a title, description, and image
 ## contact 
 This section includes a form with fields such as name, email, and message, along with a submit button. I placed everything inside a container to make the design look cleaner and more organized.
 
-## futsher advansment
+## Future Advancements
 In the future, I hope to add more JavaScript functionalities, include CSS-based animations and interactive designs, and expand the site with additional sections such as languages I have learned.
 
 
