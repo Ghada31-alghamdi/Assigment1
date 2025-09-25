@@ -37,3 +37,19 @@
   background: #b2c8b7;
   border-color: #3a5246; 
 }
+
+.nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 8px 0 20px 0;
+}
+.nav a {
+  text-decoration: none;
+  color: var(--primary);
+  background: #b2c8b7;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e7ff;
+}
+.nav a:hover { background: #203028; }
